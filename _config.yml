@@ -8,15 +8,27 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 title: Tony's TIL
+author: Tony Morris
 email: tony@morriscloud.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Things I've learned, collected in afmorris/til.
 baseurl: ""
 url: "https://til.morriscloud.com"
 twitter_username: tonytalkstech
 github_username:  afmorris
 
-theme: jekyll-theme-modernist
-remote_theme: pages-themes/modernist@v0.2.0
+theme: jekyll-theme-leap-day
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-analytics
+  - jekyll-sitemap
+  - jekyll-twitter-plugin
+
+category-list: [Terraform Cloud, Vault]
+
+jekyll_analytics:
+  Plausible:
+    domain: "analytics.morriscloud.com"
+    source: "https://analytics.morriscloud.com/js/plausible.js"
+
+feed:
+  tags: true
