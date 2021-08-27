@@ -23,7 +23,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-twitter-plugin
 
-category-list: [Terraform Cloud, Vault, WSL2]
+category-list: [WSL2]
 
 jekyll_analytics:
   Plausible:
