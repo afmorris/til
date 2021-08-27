@@ -15,7 +15,7 @@ url: "https://til.morriscloud.com"
 twitter_username: tonytalkstech
 github_username:  afmorris
 
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
   - jekyll-mentions

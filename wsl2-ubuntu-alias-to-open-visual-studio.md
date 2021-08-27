@@ -5,7 +5,7 @@ title: WSL2 Ubuntu Alias to Open Visual Studio
 tags: [WSL2, til, published]
 ---
 
-I recently reinstalled WSL2 on my Windows machine, and I'm trying to work exclusive through that shell, even when I open Windows-based applications.
+I recently reinstalled WSL2 on my Windows machine, and I'm trying to work exclusively through that shell, even when I open Windows-based applications.
 
 VS Code already does this really well, and the integration is great. I, however, work in Visual Studio somewhat regularly, so I wanted the same type of experience as `code .`.
 
